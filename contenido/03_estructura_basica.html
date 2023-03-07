@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="keywords" content="html,html5,css,javascript,'documentos digitales'"/>
+    <title>Cap&iacute;tulo 3 - Estructura b&aacute;sica HTML</title>
+</head>
+<body>
+<main>
+    <section>
+        <h2>Estructura b&aacute;sica HTML</h2>
+        <figure>
+            <img src="../images/Pexels_plans-ge9e80221a_641x191_trans90.png" alt="Imagen de boceto de estructura"/>
+        </figure>
+    </section>
+    <p>
+        Antes de ver los c&oacute;digos b&aacute;sicos, debes saber que la primera l&iacute;nea de tu documento HTML
+        siempre debe
+        contener la etiqueta &#60;!DOCTYPE html&#62;. Esto har&aacute; que el c&oacute;digo de tu sitio sea legible en
+        cualquier
+        navegador.
+    </p>
+    <p>
+        Ahora bien, un documento HTML bien armado tiene cuatro etiquetas esenciales para que el contenido se distribuya
+        correctamente. Estas son:
+    </p>
+    <h3>1. HTML</h3>
+    <p>
+        &#60;html&#62; est&aacute; al inicio de un documento HTML e indica a los navegadores que la p&aacute;gina tiene
+        c&oacute;digo HTML
+        para que
+        pueda leerlo de esa forma. Siguiendo la sintaxis del lenguaje, la etiqueta de cierre
+        &#60;/html&#62;
+        ser&aacute; el &uacute;ltimo elemento del documento.
+    </p>
+    <h3>2. Encabezado</h3>
+    <p>
+        &#60;head&#62; es la etiqueta que se utiliza para el encabezado de la p&aacute;gina. Su principal funci&oacute;n
+        es contener
+        toda la informaci&oacute;n del funcionamiento del sitio. Debido a esto, es un c&oacute;digo encriptado que las
+        personas que
+        entran a la p&aacute;gina no pueden ver.
+    </p>
+    <h3>3. T&iacute;tulo de p&aacute;gina</h3>
+    <p>
+        &#60;title&#62; es la etiqueta que da a tu s&iacute;tio un nombre para que los usuarios puedan identificarlo. Es
+        el
+        t&iacute;tulo que puedes ver en las pestañas del navegador.
+    </p>
+    <h3>4. Cuerpo</h3>
+    <p>
+        &#60;body&#62; es la etiqueta que contiene todos los elementos individuales del sitio. O dicho
+        de otra forma, comprende todo el contenido visible del sitio. Aqu&iacute; podr&aacute;s insertar
+        texto, im&aacute;genes, v&iacute;deos o cualquier otra funcionalidad que desees mostrar.
+    </p>
+    <h3>5. T&iacute;tulos y subt&iacute;tulos</h3>
+    <p>
+        &#60;h1&#62; &#60;h2&#62;... &#60;h6&#62; son etiquetas que funcionan para agregar t&iacute;tulos y subt&iacute;tulos
+        en el
+        cuerpo del texto, lo cual ayuda a jerarquizar la informaci&oacute;n. Por cierto, te recomendamos utilizar la
+        etiqueta
+        H1 solo una vez dentro del contenido.
+    </p>
+    <h3>6. Im&aacute;genes</h3>
+    <p>
+        &#60;img&#62; con esta etiqueta podr&aacute;s agregar im&aacute;genes al cuerpo de tu p&aacute;gina. Combinarlo
+        con el
+        atributo src
+        te
+        permitir&aacute; especificar la ubicaci&oacute;n donde se encuentra la imagen, y el atributo alt te ayudar&aacute;
+        a darle un
+        t&iacute;tulo
+        a esa imagen para que lo lean buscadores como Google.
+    </p>
+    <!-- Aplicar estilo "responsive" a la imagen en la hoja de estilo-->
+    <figure>
+        <img src="../images/pexels-rafael-guajardo-604684_641x684.png"
+             alt="Imagen de humo azul y blanco de Rafael Guajardo"
+             title="Imagen de Rafael Guajardo"/>
+        <figcaption>Imagen de ejemplo: Fondo De Pantalla Digital De Humo Azul Y Blanco de Rafael Guajardo: <br/>
+            https://www.pexels.com/es-es/foto/fondo-de-pantalla-digital-de-humo-azul-y-blanco-604684/
+        </figcaption>
+    </figure>
+    <h3>7. Hiperv&iacute;nculos</h3>
+    <p>
+        &#60;a&#62; te permite insertar un hiperv&iacute;nculo a la p&aacute;gina. Por ejemplo, el link hacia tus redes
+        sociales o
+        hacia otro sitio web con el que desees conectar tu p&aacute;gina.
+    </p>
+    <a href="https://www.godaddy.com/es" target="_blank">Visita el portal de GoDaddy</a>
+    <figure>
+        <img src="../images/imagen_promo_godaddy.png" alt="Imagen de promo del portal GoDaddy" title="Portal GoDaddy"/>
+    </figure>
+    <h3>8. Tablas</h3>
+    <p>
+        Una tabla no es otra cosa m&aacute;s que un medio de organizar datos en filas y columnas. Este concepto ha
+        estado
+        presente en nuestra sociedad por un largo per&iacute;odo de tiempo y ha sido adoptado por HTML en sus etapas
+        iniciales,
+        como una forma de transmitir informaci&oacute;n que, de otro modo, no ser&iacute;a comprendida tan f&aacute;cilmente.
+    </p>
+    <p>
+        En documentos HTML una tabla puede ser considerada, resumidamente, como un grupo
+        de filas donde cada una contiene a un grupo de celdas. Esto es conceptualmente distinto
+        a un grupo de columnas que contiene a un grupo de filas, y esta diferencia tendr&aacute; un
+        impacto en la composici&oacute;n y comportamiento de la tabla.
+    </p>
+    <p>
+        HTML5 tiene las siguientes secciones o &aacute;reas para la construcci&oacute;n de una tabla:
+    </p>
+    <dl>
+        <dt><span>Thead</span></dt>
+        <dd>Agrupamiento de una o un conjunto de filas que forman parte del encabezado</dd>
+        <dt><span>Tbody</span></dt>
+        <dd>Incluye todas las filas que incluye los datos</dd>
+        <dt>Thead</dt>
+        <dd>Filas o conjunto de filas que incluyen los datos res&uacute;menes de la tabla</dd>
+    </dl>
+    <p>Algunos ejemplos de tablas:</p>
+    <table>
+        <thead>
+        <tr>
+            <th>Ciudad</th>
+            <th>Aeropuerto</th>
+            <th>Playa</th>
+            <th>Habitantes</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Reus</td>
+            <td>S&iacute;</td>
+            <td>No</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>Tarragona</td>
+            <td>No</td>
+            <td>S&iacute;</td>
+            <td>130000</td>
+        </tr>
+        <tr>
+            <td>Madrid</td>
+            <td>S&iacute;</td>
+            <td>No</td>
+            <td>3100000</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>S&iacute;</td>
+            <td>S&iacute;</td>
+            <td>1600000</td>
+        </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="2"><p>Nombre</p></th>
+            <th><p>¿Tengo cuenta?</p></th>
+            <th><p>Valoraci&oacute;n</p></th>
+            <th><p>Direcci&oacute;n</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="2"><p>Facebook</p></th>
+            <td rowspan="2">
+                <figure><img src="../images/icono_facebook.png" alt="icono de Facebook"/></figure>
+            </td>
+            <td rowspan="2">
+                <figure><img src="../images/check_blue.png" alt="icono de checking blue"/></figure>
+            </td>
+            <td>
+                <figure><img src="../images/valoracion_01.png"
+                             alt="valoraci&oacute;n de dos estrellas y media sobre cinco"/>
+                </figure>
+            </td>
+            <td rowspan="2"><a href="https://www.facebook.com" target="_blank">https://www.facebook.com</a></td>
+        </tr>
+        <tr>
+            <td><p>2.5 / 5</p></td>
+        </tr>
+
+        <tr>
+            <th rowspan="2"><p>Flickr</p></th>
+            <td rowspan="2">
+                <figure><img src="../images/icono_flickr.png" alt="icono de Flickr"/></figure>
+            </td>
+            <td rowspan="2">
+                <figure><img src="../images/check_blue.png" alt="icono de checking blue"/></figure>
+            </td>
+            <td>
+                <figure><img src="../images/valoracion_02.png"
+                             alt="valoracion de cuatro estrella con veinticinco sobre cinco"/></figure>
+            </td>
+            <td rowspan="2"><a href="https://www.flickr.com" target="_blank">https://www.flickr.com</a></td>
+        </tr>
+        <tr>
+            <td><p>4.25 / 5</p></td>
+        </tr>
+        <tr>
+            <th rowspan="2"><p>Vimeo</p></th>
+            <td rowspan="2">
+                <figure><img src="../images/icono_vimeo.png" alt="icono de Vimeo"/></figure>
+            </td>
+            <td rowspan="2">
+                <figure><img src="../images/check_empty.png" alt="icono de empty check"/></figure>
+            </td>
+            <td>
+                <figure><img src="../images/valoracion_03.png" alt="sin valoraci&oacute;n"/></figure>
+            </td>
+            <td rowspan="2"><a href="https://www.vimeo.com" target="_blank">https://www.vimeo.com</a></td>
+        </tr>
+        <tr>
+            <td><p>Sin valoracion todav&iacute;a</p></td>
+        </tr>
+        <tr>
+            <th rowspan="2"><p>Youtube</p></th>
+            <td rowspan="2">
+                <figure><img src="../images/icono_youtube.png" alt="icono de Youtube"/></figure>
+            </td>
+            <td rowspan="2">
+                <figure><img src="../images/check_blue.png" alt="icono de checking blue"/></figure>
+            </td>
+            <td>
+                <figure><img src="../images/valoracion_04.png"
+                             alt="valoraci&oacute;n de dos setenta y cinco sobre cinco"/>
+                </figure>
+            </td>
+            <td rowspan="2"><a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a></td>
+        </tr>
+        <tr>
+            <td><p>2.75 / 5</p></td>
+            <!-- <tfoot><p>Redes sociales</p></tfoot> -->
+    </table>
+</main>
+<hr/>
+<footer>
+    <!-- Navegador de botones para editar en CSS -->
+    <nav id="nav_pag">
+        <ul>
+            <li><a href="02_etiquetas.html">atr&aacute;s</a></li>
+            <li><a href="index.html">&iacute;ndice</a></li>
+            <li><a href="00_portada.html">adelante</a></li>
+        </ul>
+    </nav>
+    <!-- -->
+    <p><small>4&#47;4 &#124; &copy;Yui G&oacute;mez &Aacute;balos, 2023</small></p>
+</footer>
+</body>
+</html>
